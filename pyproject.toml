@@ -1,0 +1,29 @@
+[project]
+name = "cards"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Igor Akulov", email = "wmigor@yandex.ru" }
+]
+dependencies = [
+    "flet",
+    "peewee"
+]
+
+[dependency-groups]
+dev = [
+    "flet-cli",
+    "flet-desktop-light",
+    "flet-web",
+]
+
+[tool.flet]
+org = "org.iakulov"
+product = "cards-dev"
+company = "Flet"
+copyright = "Copyright (C) 2023-2026 by Flet"
+
+[tool.flet.app]
+path = "src"
